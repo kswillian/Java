@@ -27,7 +27,9 @@ public class Main {
         System.out.print(" | Idade: ");
         a.setIdade(leia.nextByte());
         System.out.print("-|--------------------------|- \n"
-                       + " | Nota 1: ");
+                       + " | Serie:  ");
+        a.setSerie(leia.next());
+        System.out.print(" | Nota 1: ");
         a.setNota1(leia.nextFloat());
         System.out.print(" | Nota 2: ");
         a.setNota2(leia.nextFloat());
@@ -38,6 +40,7 @@ public class Main {
                         + " |--------------------------|  \n"
                         + " |  Nome: " + a.getNome() + "  \n"
                         + " | ------------------------ |  \n"
+                        + " |  Serie: " + a.getSerie() +  "\n"
                         + " |  Nota 1: " + a.getNota1() + "\n"
                         + " |  Nota 2: " + a.getNota2() + "\n"
                         + " | ------------------------ |  \n"
